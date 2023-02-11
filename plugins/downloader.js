@@ -87,9 +87,9 @@ await getYtV(message, client);
 );
 inrl(
 	   {
-		pattern: ['ytmp3','song'],
+		pattern: ['play','song'],
 		desc: 'get yt video as mp3 output',
-                sucReact: "🤙",
+                sucReact: "🌝",
                 category: ["system", "all", "downloade"],
                 type : "download"
 	   },
