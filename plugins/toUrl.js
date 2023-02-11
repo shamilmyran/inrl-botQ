@@ -25,7 +25,7 @@ inrl({ pattern: ['webss'], desc: "to get web screenshot",sucReact: "⚒️",  ca
 });
 
 inrl({ pattern: ['pdf'], desc: "to get pdf of a webpage",sucReact: "⚒️",  category: ["all"],type : "converter"}, (async (message, client, match) => {
-    if(!match) return message.reply('need url, Example : pdf https://github.com/inrl-official');
+    if(!match) return message.reply('need url, Example : pdf http://instagram.com/_munavir._');
     return await pdfGen(message, client);
 }))
 
